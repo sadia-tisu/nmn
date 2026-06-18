@@ -1,0 +1,57 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+.navBar {
+    background: red;
+}
+.topContent, .menuBar, .menu ul {
+    display: flex;
+}
+.topContent {
+    padding: 10px 0;
+}
+.topContent p {
+    color: #fff;
+    font-size: 14px;
+}
+.Email {
+    padding-left: 30px;
+}
+.menuBar {
+    padding: 30px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img {
+    height: 45px;
+}
+.menu li {
+    padding: 0 15px;
+}
+.menu a {
+    font-size: 18px;
+    color: #000;
+}
+.menu a:hover {
+    color: red;
+}
+.btn a {
+    color: #fff;
+    padding: 12px 24px;
+    background: red;
+    border-radius: 7px;
+    font-weight: bold;
+}
